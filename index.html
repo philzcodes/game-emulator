@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+  <div id="game-boy-emulator">
+    <div id="game-container">
+      <div id="score-container">Score: <span id="score">0</span></div>
+      <!-- Canvas will be drawn here -->
+    </div>
+    <div id="game-boy-text">GameBoy</div>
+    <div id="button-container">
+      <div id="arrow-buttons">
+        <button class="button navigation-button" id="up">&#9650;</button>
+        <div>
+          <button class="button navigation-button" id="left">&#9664;</button>
+          <button class="button navigation-button" id="right">&#9654;</button>
+        </div>
+        <button class="button navigation-button" id="down">&#9660;</button>
+      </div>
+      <div id="action-buttons">
+        <button class="button" id="play" style="background-color: blue; color: white;">&#9654;</button>
+        <button class="button" id="pause" style="background-color: blue; color: white;">&#9616;&#9616;</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
